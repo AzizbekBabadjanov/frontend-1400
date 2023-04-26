@@ -26,6 +26,8 @@ body {
 .header {
     min-height: 100vh;
     background: dodgerblue;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav .container {
@@ -51,4 +53,14 @@ body {
     margin: 0 14px;
     padding: 20px 0;
     display: block;
+}
+
+.header__title {
+    font-size: 100px;
+    color: #fff;
+    text-shadow: 5px 5px 10px red;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
